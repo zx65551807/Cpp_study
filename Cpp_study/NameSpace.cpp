@@ -14,7 +14,7 @@ using namespace std;
 
 namespace na
 {
-	void print(int n) {     //与名字空间nb的函数名相同
+	void print(int n) {     //与名字空间nb的函数名相同_test
 		cout << "na::print: " << n << endl;
 	}
 }
