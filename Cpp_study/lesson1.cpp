@@ -1,4 +1,6 @@
-﻿//名字空间的定义
+﻿//http://c.biancheng.net/cpp/biancheng/view/2760.html
+
+//名字空间的定义
 //名字空间除了系统定义的名字空间之外，还可以自己定义，定义名字空间用关键字“namespace”，使用名字空间时用符号“::”指定。
 //不指定名字空间的变量或函数都是当前名字空间下的变量或函数。
 //不定义名字空间的情况下，都属于全局名字空间。
@@ -8,7 +10,7 @@
 //
 
 #include <iostream>
-#include "NameSpace.h"
+#include "lesson1.h"
 
 using namespace std;
 
@@ -34,7 +36,7 @@ namespace na  // 同一个名字空间可以定义多次
 	}
 }
 
-int name_space()
+int lesson1()
 {
 	na::print(3);        // 指定na下的print函数
 	nb::print(4);        // 指定na下的print函数

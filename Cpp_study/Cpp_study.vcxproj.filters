@@ -15,15 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NameSpace.cpp">
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="Lesson2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="func_ptr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NameSpace.h">
+    <ClInclude Include="lesson2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="func_ptr.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

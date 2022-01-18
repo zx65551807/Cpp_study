@@ -151,11 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="NameSpace.cpp" />
+    <ClCompile Include="func_ptr.cpp" />
+    <ClCompile Include="Lesson2.cpp" />
+    <ClCompile Include="lesson1.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NameSpace.h" />
+    <ClInclude Include="func_ptr.h" />
+    <ClInclude Include="lesson2.h" />
+    <ClInclude Include="lesson1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
